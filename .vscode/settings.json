@@ -1,0 +1,9 @@
+{
+  "javascript": {
+    "Boilerplate Function": {
+      "prefix": "func",
+      "body": ["function functionName() {", "\t// Your code here", "}"],
+      "description": "Create a function boilerplate"
+    }
+  }
+}

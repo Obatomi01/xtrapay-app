@@ -1,13 +1,14 @@
 {
   "expo": {
+    "jsEngine": "hermes",
     "name": "xtrapay-new",
     "slug": "xtrapay-new",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/launchscreen.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/launchscreen.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,16 +16,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "jsEngine": "jsc",
+      "bundleIdentifier": "com.anonymous.xtrapaynew"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/launchscreen.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.xtrapaynew"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "577c5404-7a41-4280-9f11-0a509d0f0041"
+      }
     }
   }
 }
